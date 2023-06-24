@@ -12,12 +12,31 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     }
+    .conteudo-social{
+        background-color:#000000;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        height:35px;
+        z-index: 50;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        right: 10px;
+    }
+    .conteudo-social a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        padding-left: 0.5em;
+    }
     header{
         z-index: 1;
         background-color: red;
         height: 80px;
         position: fixed;
         width: 100vw;
+        top:35px;
     }
     .conteudo-header{
         display: flex;
